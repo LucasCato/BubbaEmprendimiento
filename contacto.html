@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto-Bubba</title>
+</head>
+<body>
+   <div class="grid-padre">
+   <header>
+         <nav>
+            <img src="Imagenes/bubba.png" alt="logo bubba" class="logo">
+            <ul class="nav-links">
+               <li>
+                  <a href="index.html">Inicio</a>
+               </li>
+               <li>
+                  <a href="productos.html">Productos</a>
+               </li>
+               <li>
+                  <a href="preguntas.html">Preguntas Frecuentes</a>
+               </li>
+               <li>
+                  <a href="comprar.html">Como Comprar</a>
+               </li>
+               <li>
+                  <a href="contacto.html">Contacto </a>
+               </li>
+            </ul>
+         </nav>
+   </header>
+   <main>
+         <section>
+            <div class="title-contact">
+               <h1> ¡Contactate con nosotros!</h1>
+            </div>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52475.303162195785!2d-58.71407555943004!3d-34.712583360014015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc0fc60b0362f%3A0x6586b8e874e815f1!2sLibertad%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1647269221620!5m2!1ses-419!2sar" ; allowfullscreen="" loading="lazy"></iframe>
+            <div class="title-contact">
+               <h2>Dejanos tu mensaje</h2>
+            </div>
+         </section>
+         <section class="section-form">
+            <form action="form.php" method="POST" class="form-contact">
+               <div class="form">
+                  <label for="name">Nombre</label>
+                  <input type="text" id="name" placeholder="Ej: Lucas Fernandez" name="name" required>
+               </div>
+               <div class="form">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Ej: xxxx@gmail.com" 
+                  name="email"  required>
+               </div>
+               <div class="form">
+                  <label for="message">Tu Mensaje</label>
+                  <textarea name="message" id="message"  placeholder="Hola, queria consultar por..." name="message" required></textarea>
+               </div>
+               <div class="form">
+                  <button type="submit" name="button">Enviar</button>
+               </div>
+            </form>
+         </section>
+   </main> 
+   <footer>
+      <ul class="redes">
+         <li> 
+            <a href="https://www.instagram.com/bubbatazas/" target="_blank">
+            <img src="/Imagenes/instagram.PNG" alt="instagram">
+            </a>
+         </li>
+         <li>
+            <a href="https://www.facebook.com/Bubba-Tazas-2034471656596057" target="_blank">
+            <img src="/Imagenes/facebook.PNG" alt="facebook">
+            </a>
+         </li>
+      </ul>
+         <ul class="info">
+            <li>Direccion
+               <p>Calle Falsa 123</p>
+            </li>
+            <li>Horario
+               <p>10 a 18 Hs</p>
+            </li>
+            <li>WhatsApp
+               <p>0303456</p>
+            </li>
+         </ul>
+      </footer>
+      </div>
+</body>
+</html>
