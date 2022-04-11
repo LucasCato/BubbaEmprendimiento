@@ -150,6 +150,7 @@ display: flex;
 }
 .form button:hover{
     background-color: rgba(22, 145, 152, 0.5);
+    /* prueba */
 }
 
 /*Footer*/
