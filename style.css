@@ -32,14 +32,17 @@ header{
     width: 10%;
     animation-name: mover;
     animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
 }
 
 @keyframes mover {
     0%{
-        translate: translateX(0);
+        transform: translateX(0);
     }
     100%{
-        translate: translateX(100%);
+        transform: translateX(50%);
     }
 }
 
