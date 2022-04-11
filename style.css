@@ -148,10 +148,8 @@ display: flex;
     padding: 10px 40px;
     cursor:pointer;
 }
-.form button:hover{
-    background-color: rgba(22, 145, 152, 0.5);
-    /* prueba */
-}
+
+
 
 /*Footer*/
 footer{
