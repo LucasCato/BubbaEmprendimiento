@@ -30,7 +30,19 @@ header{
 .logo{
     height: 10%;
     width: 10%;
+    animation-name: mover;
+    animation-duration: 1s;
 }
+
+@keyframes mover {
+    0%{
+        translate: translateX(0);
+    }
+    100%{
+        translate: translateX(100%);
+    }
+}
+
 nav{
     display: flex;
     justify-content: space-between;
