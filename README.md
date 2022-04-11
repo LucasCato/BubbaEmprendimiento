@@ -5,7 +5,7 @@ Proyecto Coder House - Lucas Fernandez
 
 <h3 align="left">Conéctate conmigo: </h3>
 <p align="left">
-<a href="https://linkedin.com/in/lucas fernandez" target="blank"><img align="center" src="https:// raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lucas fernandez" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/lucas fernandez" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="lucas fernandez" height="30" width="40" /></a>
 <a href="https://instagram.com/cato.lucas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cato.lucas" height="30" width="40" /></a>
 
 
