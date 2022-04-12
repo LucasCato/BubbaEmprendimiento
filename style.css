@@ -11,7 +11,7 @@
 
 .grid-padre{
     display: grid;
-    grid-template-rows: 80px 1000px 140px; 
+    grid-template-rows: 80px 1000px 210px; 
     grid-template-areas: 
     "header header header "
     "main main main " 
@@ -70,14 +70,13 @@ h1{
     font-family: 'Nunito', sans-serif;
     color: var(--color-verde);
     padding: 5px;
+    font-size: 30px;
 }
 .novedades{
     height: 70%;
     width: 100%;
 }
-h1{
-    font-family: 'Nunito', sans-serif;
-}
+
 h2{
     font-family: 'Nunito', sans-serif;
 }
