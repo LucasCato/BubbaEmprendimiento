@@ -1,0 +1,19 @@
+{
+  "name": "codigo",
+  "version": "1.0.0",
+  "description": "Proyecto Coder House - Lucas Fernandez\r <h1 align=\"center\">Hola 👋, soy Lucas Fernandez</h1>\r <h3 align=\"center\">Un apasionado desarrollador frontend de Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasCato/BubbaEmprendimiento.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasCato/BubbaEmprendimiento/issues"
+  },
+  "homepage": "https://github.com/LucasCato/BubbaEmprendimiento#readme"
+}
