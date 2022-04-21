@@ -1,0 +1,26 @@
+/*Start Footer*/
+footer{
+    background-color: var(--color-verde);
+    grid-area: footer;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.redes a img{
+    height: 10%;
+    width: 10%;
+}
+.redes li{
+    list-style: none; 
+}
+
+
+.info{
+    font-family: 'Nunito', sans-serif;
+    color: var(--color-blanco);
+    list-style: none;
+}
+
+/* End Footer */

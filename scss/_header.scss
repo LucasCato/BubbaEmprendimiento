@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+:root{
+    --color-verde: rgb(22, 145, 152);
+    --color-blanco: rgb(255, 255, 255);
+}
+
+.grid-padre{
+    display: grid;
+    grid-template-rows: 80px 1000px 210px; 
+    grid-template-areas: 
+    "header header header "
+    "main main main " 
+    "footer footer footer ";
+}
+
+/*Start Header*/
+
+header{
+    background-color: var(--color-verde);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        ul{
+            li{
+                display: inline-block;
+                padding: 10px;
+                a{
+                    font-family: 'Nunito', sans-serif;
+                    list-style: none;
+                    color: var(--color-blanco);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.logo{
+    height: 10%;
+    width: 10%;
+    animation-name: mover;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(50%);
+    }
+}
