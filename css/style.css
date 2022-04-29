@@ -24,17 +24,18 @@ header {
   grid-area: header;
 }
 header nav {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  background-color: var(--color-verde) !important;
 }
 header nav ul li {
+  background-color: var(--color-verde);
   display: inline-block;
   padding: 10px;
 }
 header nav ul li a {
   font-family: "Nunito", sans-serif;
   list-style: none;
-  color: var(--color-blanco);
+  color: var(--color-blanco) !important;
   text-decoration: none;
 }
 
@@ -48,14 +49,6 @@ header nav ul li a {
   animation-timing-function: ease-out;
 }
 
-@keyframes mover {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(50%);
-  }
-}
 /*Start Main-Section*/
 main {
   grid-area: main;

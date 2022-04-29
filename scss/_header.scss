@@ -27,16 +27,17 @@ header{
     align-items: center;
     grid-area: header;
     nav{
-        display: flex;
-        justify-content: space-between;
+        width: 100%;
+        background-color: var(--color-verde) !important;
         ul{
             li{
+                background-color: var(--color-verde);
                 display: inline-block;
                 padding: 10px;
                 a{
                     font-family: 'Nunito', sans-serif;
                     list-style: none;
-                    color: var(--color-blanco);
+                    color: var(--color-blanco) !important;
                     text-decoration: none;
                 }
             }
@@ -54,11 +55,11 @@ header{
     animation-timing-function: ease-out;
 }
 
-@keyframes mover {
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(50%);
-    }
-}
+// @keyframes mover {
+//     0%{
+//         transform: translateX(0);
+//     }
+//     100%{
+//         transform: translateX(50%);
+//     }
+// }
