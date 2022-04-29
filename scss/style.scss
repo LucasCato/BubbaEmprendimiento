@@ -2,49 +2,5 @@
 @import "main";
 @import "footer";
 
-@media screen and (max-width: 400px) {
-    body{
-    display: flex;
-    }
-    .textos {
-    display: flex;
-    flex-direction: column;
-    }
-    /* .carousel slide{
-    height: 200px;
-    } */
-    .productos{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    }
-    .productos img {
-    width: 100%;
-    }
-    /* arreglar carrusel y footer */
-    .grid-padre{
-        display: block;
-    } 
-    .carousel-item{
-        height: 300px;
-        background-color: red;
-        display: block;
-    }
-    // .carousel-item img{
-    //     object-fit:fill;
-    // }
-  }
-  
-  @media screen and (max-width: 768px) {
-    body{
-      display: flex;
-    }
-    .textos {
-      display: flex;
-      flex-direction: column;
-    }
-    .grid-padre{
-        display: block;
-    } 
-  }
+
+

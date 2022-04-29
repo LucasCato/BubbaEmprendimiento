@@ -109,9 +109,50 @@ display: flex;
 
 /* End Main/Section */
 
+/*media query max 400*/ 
+@media screen and (max-width: 400px) {
+    body{
+    display: flex;
+    }
+    .textos {
+    display: flex;
+    flex-direction: column;
+    }
+    .productos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    }
+    .productos img {
+    width: 100%;
+    }
+    .grid-padre{
+        display: block;
+    } 
+    .carousel-item{
+        height: 300px;
+        display: block;
+    }
+}
+
 /*media query max 768*/ 
 @media screen and (max-width: 768px) {
-    // .form{
-    //     ;
-    // }
+    body{
+    display: flex;
+    }
+    .textos {
+    display: flex;
+    flex-direction: column;
+    }
+    .grid-padre{
+        display: block;
+    } 
+    .form-contact{
+        width: 100%;
+    }
+    .form textarea{
+        min-width: none;
+        width: 100%;
+    }
 }
