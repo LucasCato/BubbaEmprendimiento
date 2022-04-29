@@ -222,7 +222,7 @@ p {
   }
 
   .form textarea {
-    min-width: none;
+    min-width: 0 !important;
     width: 100%;
   }
 }
